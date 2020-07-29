@@ -106,39 +106,3 @@ input[name="r"]{
 .slide img{
 	max-width: 600px;
 }
-
-/*#r1:checked ~ .s1{
-	margin-left:0;
-}
-
-#r2:checked ~ .s1{
-	margin-left:-12.5%;
-}
-
-#r3:checked ~ .s1{
-	margin-left:-25%;
-}
-
-#r4:checked ~ .s1{
-	margin-left:-37.5%;
-}
-
-#r5:checked ~ .s1{
-	margin-left:-50%;
-}
-
-#r6:checked ~ .s1{
-	margin-left:-62.5%;
-}
-
-#r7:checked ~ .s1{
-	margin-left:-75%;
-}
-
-#r8:checked ~ .s1{
-	margin-left:-87.5%;
-}
-
-#r9:checked ~ .s1{
-	margin-left:-100%;
-}*/
