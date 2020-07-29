@@ -1,0 +1,144 @@
+body, html{
+	background-color:#ffd91a;
+	height: 100%;
+	margin: 0;
+	font:400 15px/1.8 "Lato", sans-serif;
+	color: #777;
+
+}
+
+.image{
+	background-image: url("https://miro.medium.com/max/3840/1*k92-ZChOfryiqAKb59peBg.jpeg");
+	height: 100%
+}
+
+.image{
+	position: relative;
+	opacity: 0.95;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.caption span.border {
+  background-color: #111;
+  opacity: 0.75;
+  padding: 12px;
+  font-size: 35px;
+  letter-spacing: 8px;
+}
+
+.caption1{
+  left: 0;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.caption1 span.border1 {
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+
+.slidershow{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+/*.middle{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(0%,70%);
+}*/
+
+.navigation{
+	position:absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+}
+
+.bar{
+	width: 20px;
+	height: 10px;
+	border: 2px solid #111;
+	margin: 6px;
+	cursor: pointer;
+	transition: 0.4s;
+}
+.bar:hover{
+	background: #111;
+}
+
+input[name="r"]{
+	position: absolute;
+	visibility: hidden;
+}
+/*.slides{
+	width: 100%;
+	height: 95%;
+	display: flex;
+}
+.slide{
+	width: 40%;
+	transition: 0.45s;
+}
+.slide img{
+	height: 100%;
+}*/
+.slide {
+	display: flex;
+	justify-content: center;
+}
+.slide img{
+	max-width: 600px;
+}
+
+/*#r1:checked ~ .s1{
+	margin-left:0;
+}
+
+#r2:checked ~ .s1{
+	margin-left:-12.5%;
+}
+
+#r3:checked ~ .s1{
+	margin-left:-25%;
+}
+
+#r4:checked ~ .s1{
+	margin-left:-37.5%;
+}
+
+#r5:checked ~ .s1{
+	margin-left:-50%;
+}
+
+#r6:checked ~ .s1{
+	margin-left:-62.5%;
+}
+
+#r7:checked ~ .s1{
+	margin-left:-75%;
+}
+
+#r8:checked ~ .s1{
+	margin-left:-87.5%;
+}
+
+#r9:checked ~ .s1{
+	margin-left:-100%;
+}*/
